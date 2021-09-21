@@ -1,0 +1,30 @@
+body {
+    background-color:rgb(3, 0, 22);
+    color:rgb(220, 132, 255);
+    font-family: sans-serif;
+}
+h1 {
+    font-size: 85px;
+    margin: 20px;
+}
+h2 {
+    font-size: 35px;
+    margin: 20px;
+}
+h3 {
+    font-size: 30px;
+    margin: 20px;
+}
+p {
+    width: 800px;
+    white-space: normal;
+    font-size: 20px;
+}
+a {
+    color:rgb(180, 198, 255);
+    font-size: 20px;
+}
+ul {
+    margin-left: 700px;
+    font-size: 20px;
+}
