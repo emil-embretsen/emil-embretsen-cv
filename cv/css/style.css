@@ -2,29 +2,36 @@ body {
     background-color:rgb(3, 0, 22);
     color:rgb(220, 132, 255);
     font-family: sans-serif;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    font-size: 20px;
+    padding-bottom: 5%;
 }
-h1 {
+.header {
     font-size: 85px;
-    margin: 20px;
+    margin-top: 0%;
+    margin-bottom: 0%;
 }
 h2 {
     font-size: 35px;
-    margin: 20px;
 }
 h3 {
     font-size: 30px;
-    margin: 20px;
 }
-p {
-    width: 800px;
-    white-space: normal;
-    font-size: 20px;
-}
+
 a {
     color:rgb(180, 198, 255);
-    font-size: 20px;
 }
-ul {
-    margin-left: 700px;
-    font-size: 20px;
+
+.list {
+    text-align: left;
+    margin-left: 20%;
+}
+
+img {
+    width: 70%;
+}
+footer {
+    padding-top: 5%;
 }
