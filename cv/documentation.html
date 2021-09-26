@@ -1,13 +1,33 @@
 <!DOCTYPE html>
 <html>
-<title>Dokumentation</title>
-    <head>
-        <link rel="stylesheet" href="css/style.css">
-    </head>
-    <body>
-        <h1>Dokumentation av sidan</h1>
-    </body>
-    <footer>
-        <a href="index.html">Tillbaka</a>
-    </footer>
+   <head>
+      <title>Dokumentation</title>
+      <link rel="stylesheet" href="css/style.css">
+   </head>
+   <body>
+      <div>
+         <!--Rubrik-->
+         <h1 class="header">Dokumentation</h1>
+         <h3>I punktform</h3>
+      </div>
+      <div>
+         <!--Lista-->
+         <ul class="list">
+            <li>Förstod först inte varför mina länkar till interna platser i dokumentet fungerade. Jag kom sedan på att jag glömt &lt;a&gt; taggen och hade 
+               istället lagt in min href i &lt;p&gt; taggen.
+            </li>
+            <li>Kunde inte länka till stylesheet först. Kom på att jag skrivit href=”style.css” istället för href=”css/style.css”.</li>
+            <li>Hade svårt att få texten att vara begränsad till mitten med whitespace på höger och vänster sida. Efter ett tag märkte jag att det var 
+               för att jag hade &lt;center&gt; taggarna innanför mitt &lt;p&gt; element vilket gjorde att den gjorde en override på css. Jag märkte sedan att &lt;center&gt; taggen är outdated och dessutom 
+               gör det bara att sidan inte är lika logiskt uppbyggd så jag använde css för att centrera allt på sidan istället med en margin på 25% på höger 
+               och vänster sida och text-align: center; vilket löste det. På så sätt behövde jag inte 
+               använda &lt;br&gt; för att hålla min text i mitten och kunde bara skriva istället.
+            </li>
+         </ul>
+      </div>
+      <footer>
+         <!--Tillbakaknapp-->
+         <a href="index.html">Tillbaka</a>
+      </footer>
+   </body>
 </html>
